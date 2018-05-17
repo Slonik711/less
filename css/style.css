@@ -1,0 +1,105 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+.main {
+    width: 100%;
+}
+
+.user {
+    position: relative;
+    margin-bottom: 5em;
+}
+
+.user-preview {
+    position: relative;
+    width: 100%;
+}
+
+.user-preview__img {
+    background-image: url(images/User-icon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    width: 100%;
+    height: 18em;
+}
+
+.user-preview__name {
+    color: azure;
+    text-shadow: black 0 0 0.125em;
+    font-size: 3em;
+    position: absolute;
+    bottom: 0;
+    left: 0.5em;
+}
+
+.user-contacts {
+    padding: 2em;
+}
+
+.user-contacts__item {
+    margin: 1em auto;
+}
+
+.user-contacts__item_title {
+    font-weight: bold
+}
+
+.user-contacts__item_value {
+    color: gray;
+    font-size: 0.8em
+}
+
+.edit-btn_red {
+    position: absolute;
+    bottom: -4em;
+    right: 4em;
+    background-color: crimson;
+}
+
+
+.btn-md {
+    width: 8em;
+    height: 8em;
+}
+
+.btn-circle {
+    border-radius: 50%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3em;
+    background-color: #BABEC6;
+}
+
+.nav-bar__item {
+    width: 3em;
+    height: 3em;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.nav-bar__item_main {
+    width: 3em;
+    height: 3em;
+    border: 1px solid black;
+    display: inline-block;
+    margin: -1.5em;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
